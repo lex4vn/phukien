@@ -1,0 +1,225 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}
+
+.footer-wrap {
+  background: rgba(0, 0, 0, 0) url("./images/bg-footer.jpg") repeat scroll 0 0;
+  color: #ddd; border-top: 5px solid #bab8b8;margin-top: 15px;
+}
+#sidebar .widget h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #ffffff;    line-height: 38px;
+    padding-left: 39px;
+    background: rgba(0, 0, 0, 0) url("./images/bg_title.png") repeat scroll 0 0;
+}
+#sidebar .widget {
+  background: #f3f3f3 none repeat scroll 0 0 padding-box;
+  border-radius: 0;color:#303030;
+  padding: 0;
+  width: 100%;
+}
+.widget ul,.widget .textwidget{
+    padding: 15px;
+}
+#sidebar{
+    max-width: 262px;
+}
+#header {
+    max-width: 100%;    
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#content {
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  margin: 0 auto;padding: 15px 10px 15px 0;
+}
+
+#bg_menu{
+  background: #f3e5d9 url("./images/bg_header.png") repeat-x scroll left 0;
+  height: 41px;z-index: 10000;
+}
+
+#header .header-top {
+  background: #ffffff none repeat scroll 0 0;
+  display: block;
+  float: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 100%;
+}
+#navigation {
+  background: none;width: 600px;
+}
+#navigation ul.nav > li a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 0.7em 1.5em;
+}
+#navigation ul.nav > li:first-child a {
+  border-radius: 0;
+}
+#navigation ul.nav > li a:hover,#navigation ul.nav > li.current_page_item a {
+  background:#b8040d;
+}
+#header .header-top .row #logo img {
+  padding-left: 0;
+  width: 100%;
+}
+#header .header-top .row #logo{
+  float:none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+ul.products::after{
+  display:none;
+}
+.home #content div.woocommerce-wrap ul.featured {
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.search-box {
+  background: transparent url("./images/search.png") no-repeat scroll center 1px;
+  height: 31px;
+  margin-left: 123px;
+  margin-top: 4px;
+  width: 265px;
+}
+#searchform{
+  border:none;
+}
+#searchform #s {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #333;
+  float: left;font-size: 12px;
+  font-style: italic;
+  line-height: 25px;
+  margin: 0;
+  padding: 5px 10px;
+  position: relative;
+  width: 200px;
+}
+#searchform #searchsubmit {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  cursor: pointer;
+  float: left;
+  height: 30px;
+  width: 35px;
+}
+#content .widget.widget_woo_featured_products h2.widgettitle,
+#content .widget.widget_woo_recent_products h2.widgettitle{
+    text-align:left;
+}
+.home div.woocommerce-wrap ul.products {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.breadcrumbs-wrap {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border-left: 3px solid #d52b26;border-bottom: 2px dashed #d52b26;
+  margin-left: 0;margin-bottom:0;
+  margin-right: 0;
+  padding: 6px 10px;
+}
+#content .widget.widget_woo_featured_products h2.widgettitle,
+#content .widget.widget_woo_recent_products h2.widgettitle{
+  background: transparent url("./images/sp_title.png") no-repeat scroll 0 3px;
+    color: #fff;
+    font-size: 16px;
+    height: 41px;
+    line-height: 45px;
+    padding: 1px 0 0 36px;
+    width: 708px;
+}
+
+#main {
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  width: 75%;
+}
+.single-product .product {
+  display: block;
+  margin:55px 0 0 0;
+  width: 100%;
+}
+.single-product .images {
+  margin-left: 0;
+  margin-right: 0;
+}
+.single-product .summary .price {
+  float: none;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.single-product .summary .product_title {
+    float: none;
+    width: 100%;
+}
+.tax-product_cat #main ul.products li.product h3 {
+    border-bottom: medium none;
+}
+.rpwwt-widget {
+    margin-bottom: 1.618em;
+}
+.widget_product_categories ul.product-categories li.cat-item {
+    background: transparent url("./images/icon1.png") no-repeat scroll 0 4px;
+}
+.widget_product_categories ul.product-categories li.cat-item a {
+    padding: 0 10px 0 18px;
+    text-transform: uppercase;
+}
+.widget_product_categories ul.product-categories, .widget_product_categories ul.product-categories li.cat-item .children {
+    padding: 10px;
+}
+.widget_product_categories ul.product-categories li.cat-item .children {
+    margin-left: 10px;
+}
+.widget_product_categories ul.product-categories li.cat-item ul li {
+    background: transparent url("./images/icon2.png") no-repeat scroll 3px 5px;
+}
+
+#recent-posts-widget-with-thumbnails ul li {
+  list-style: none;
+  font-size: 10pt;
+}
+#sidebar .widget{
+  border:1px solid #ccc;border-radius: 0 0 5px 5px;
+}

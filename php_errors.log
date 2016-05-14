@@ -1,0 +1,62 @@
+[25-Apr-2016 08:47:27 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php on line 111
+[25-Apr-2016 08:47:27 UTC] PHP Stack trace:
+[25-Apr-2016 08:47:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[25-Apr-2016 08:47:27 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[25-Apr-2016 08:47:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[25-Apr-2016 08:47:27 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[25-Apr-2016 08:47:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:47:27 UTC] PHP   6. woothemes_add_admin() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:47:27 UTC] PHP   7. mysql_real_escape_string() /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php:111
+[25-Apr-2016 08:47:27 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php on line 111
+[25-Apr-2016 08:47:27 UTC] PHP Stack trace:
+[25-Apr-2016 08:47:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[25-Apr-2016 08:47:27 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[25-Apr-2016 08:47:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[25-Apr-2016 08:47:27 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[25-Apr-2016 08:47:27 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:47:27 UTC] PHP   6. woothemes_add_admin() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:47:27 UTC] PHP   7. mysql_real_escape_string() /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php:111
+[25-Apr-2016 08:48:06 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php on line 111
+[25-Apr-2016 08:48:06 UTC] PHP Stack trace:
+[25-Apr-2016 08:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[25-Apr-2016 08:48:06 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[25-Apr-2016 08:48:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[25-Apr-2016 08:48:06 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[25-Apr-2016 08:48:06 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:06 UTC] PHP   6. woothemes_add_admin() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:06 UTC] PHP   7. mysql_real_escape_string() /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php:111
+[25-Apr-2016 08:48:06 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php on line 111
+[25-Apr-2016 08:48:06 UTC] PHP Stack trace:
+[25-Apr-2016 08:48:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[25-Apr-2016 08:48:06 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[25-Apr-2016 08:48:06 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[25-Apr-2016 08:48:06 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[25-Apr-2016 08:48:06 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:06 UTC] PHP   6. woothemes_add_admin() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:06 UTC] PHP   7. mysql_real_escape_string() /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php:111
+[25-Apr-2016 08:48:10 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php on line 111
+[25-Apr-2016 08:48:10 UTC] PHP Stack trace:
+[25-Apr-2016 08:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[25-Apr-2016 08:48:10 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[25-Apr-2016 08:48:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[25-Apr-2016 08:48:10 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[25-Apr-2016 08:48:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:10 UTC] PHP   6. woothemes_add_admin() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:10 UTC] PHP   7. mysql_real_escape_string() /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php:111
+[25-Apr-2016 08:48:10 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php on line 111
+[25-Apr-2016 08:48:10 UTC] PHP Stack trace:
+[25-Apr-2016 08:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[25-Apr-2016 08:48:10 UTC] PHP   2. require() /home/ubuntu/workspace/wp-admin/admin.php:138
+[25-Apr-2016 08:48:10 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/menu.php:282
+[25-Apr-2016 08:48:10 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/menu.php:149
+[25-Apr-2016 08:48:10 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:10 UTC] PHP   6. woothemes_add_admin() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[25-Apr-2016 08:48:10 UTC] PHP   7. mysql_real_escape_string() /home/ubuntu/workspace/wp-content/themes/superstore/functions/admin-interface.php:111
+[04-May-2016 10:03:59 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-images.php on line 69
+[04-May-2016 10:03:59 UTC] PHP Stack trace:
+[04-May-2016 10:03:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/post.php:0
+[04-May-2016 10:03:59 UTC] PHP   2. include() /home/ubuntu/workspace/wp-admin/post.php:173
+[04-May-2016 10:03:59 UTC] PHP   3. do_meta_boxes() /home/ubuntu/workspace/wp-admin/edit-form-advanced.php:686
+[04-May-2016 10:03:59 UTC] PHP   4. call_user_func:{/home/ubuntu/workspace/wp-admin/includes/template.php:1037}() /home/ubuntu/workspace/wp-admin/includes/template.php:1037
+[04-May-2016 10:03:59 UTC] PHP   5. WC_Meta_Box_Product_Images::output() /home/ubuntu/workspace/wp-admin/includes/template.php:1037
+[04-May-2016 10:03:59 UTC] PHP   6. implode() /home/ubuntu/workspace/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-images.php:69
